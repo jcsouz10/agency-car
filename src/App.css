@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#3a3a55;
+}
+
+.father {
+  overflow-x: hidden;
+}
+
+
+.link {
+  text-decoration: none;
+  color:white;
+}
