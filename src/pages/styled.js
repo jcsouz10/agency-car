@@ -51,3 +51,35 @@ export const InfoCar = styled.div`
 
   margin: 0 0 5px 0; 
 `
+
+export const ContainerLogin = styled.div`
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+`
+
+export const InputLogin = styled.input`
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 0 0 10px 0;
+  text-align: center;
+`
+
+export const ButtonLogin = styled.button`
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border:none;
+  opacity: 0.9;
+
+  &:hover {
+    opacity: 1
+  }
+`
