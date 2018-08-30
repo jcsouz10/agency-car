@@ -83,3 +83,25 @@ export const ButtonLogin = styled.button`
     opacity: 1
   }
 `
+
+export const ContainerError = styled.div`
+  background-color: white;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+`
+
+export const MessageError = styled.div`
+  font-size: 100px;
+  color: black;
+`
+
+export const ContainerDashboard = styled.div` 
+height: 200px;
+display:flex;
+justify-content: center;
+align-items: center;
+`
