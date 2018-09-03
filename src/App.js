@@ -10,16 +10,14 @@ import Login from './pages/Login';
 import pageOwnerAgency from './pages/LoginAu';
 
 class App extends Component {
-  constructor() {
-    super()
+  state = {
+    allInfo: [],
 
-    this.state = {
-      allInfo: [],
-    }
   }
 
   componentDidMount() {
-    axios.get('http://localhost:8000/api/agencies')
+    axios.get('/api/agencies',
+    )
       .then(res => (this.setState({ allInfo: res.data })))
       .catch(err => console.log(err))
 
