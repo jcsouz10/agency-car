@@ -22,7 +22,7 @@ class Login extends React.Component {
 
     this.setState({ [e.target.name]: value })
   }
-a
+
   handleLogin = () => {
     axios.post('/login', { name: this.state.name, password: this.state.password })
       .then(res => {

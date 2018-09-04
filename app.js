@@ -82,7 +82,7 @@ app.get("/secret", passport.authenticate('jwt', { session: false }), function(re
 });
 
 
-app.listen(9000, function() {
+app.listen(8000, function() {
   console.log("Express running");
 });
 
